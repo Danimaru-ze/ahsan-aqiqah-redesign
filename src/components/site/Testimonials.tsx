@@ -11,7 +11,7 @@ export function Testimonials() {
       <div className="container-page">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">Testimoni</p>
-          <h2 className="mt-3 font-heading text-3xl font-bold text-foreground sm:text-4xl">Cerita dari keluarga yang kami layani</h2>
+          <h2 className="mt-3 font-heading text-2xl font-bold text-foreground sm:text-4xl">Cerita dari keluarga yang kami layani</h2>
         </div>
 
         <div className="mt-10 grid gap-5 md:grid-cols-3">

@@ -4,19 +4,22 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useSiteData } from "@/hooks/use-site-data";
 import type { PackageItem } from "@/types/site";
+import { Lightbox } from "./Lightbox";
 
 function PackageCard({ pkg }: { pkg: PackageItem }) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-all hover:-translate-y-1 hover:shadow-card">
       <div className="aspect-[4/5] overflow-hidden bg-muted">
-        <img
-          src={pkg.image}
-          alt={pkg.name}
-          loading="lazy"
-          width={600}
-          height={750}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
+        <Lightbox src={pkg.image} alt={pkg.name}>
+          <img
+            src={pkg.image}
+            alt={pkg.name}
+            loading="lazy"
+            width={600}
+            height={750}
+            className="h-full w-full cursor-zoom-in object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        </Lightbox>
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="font-heading text-xl font-semibold text-foreground">{pkg.name}</h3>
@@ -57,7 +60,7 @@ export function Packages() {
       <div className="container-page">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">Paket Aqiqah</p>
-          <h2 className="mt-3 font-heading text-3xl font-bold text-foreground sm:text-4xl">{packagesSection.title}</h2>
+          <h2 className="mt-3 font-heading text-2xl font-bold text-foreground sm:text-4xl">{packagesSection.title}</h2>
           <p className="mt-3 text-muted-foreground">{packagesSection.subtitle}</p>
         </div>
 

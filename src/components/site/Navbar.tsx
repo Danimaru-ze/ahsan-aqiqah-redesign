@@ -41,9 +41,9 @@ export function Navbar() {
       <div className="container-page flex h-16 items-center justify-between md:h-20">
         <Link to="/" className="flex items-center gap-2.5">
           <img src={brand.logo} alt={`${brand.shortName} logo`} className="h-10 w-10 md:h-11 md:w-11" width={44} height={44} />
-          <div className="flex flex-col leading-tight">
+          <div className="flex flex-col leading-[1.1]">
             <span className="font-heading text-base font-bold text-primary md:text-lg">{brand.shortName}</span>
-            <span className="text-[10px] uppercase tracking-wider text-muted-foreground md:text-xs">Official</span>
+            <span className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground md:text-xs">Official • Sejak {brand.since}</span>
           </div>
         </Link>
 

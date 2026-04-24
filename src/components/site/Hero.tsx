@@ -21,17 +21,17 @@ export function Hero() {
             {hero.eyebrow}
           </div>
 
-          <h1 className="mt-5 font-heading text-4xl font-bold leading-tight text-foreground sm:text-5xl lg:text-6xl">
+          <h1 className="mt-5 font-heading text-3xl font-bold leading-tight text-foreground sm:text-5xl lg:text-6xl">
             {hero.title}
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
             {hero.subtitle}
           </p>
 
-          <div className="mt-6 flex items-center gap-2 rounded-2xl border border-primary/15 bg-white/70 px-4 py-3 text-sm text-foreground/80 backdrop-blur">
+          <div className="mt-6 flex flex-wrap items-center gap-2 rounded-2xl border border-primary/15 bg-white/70 px-4 py-3 text-sm text-foreground/80 backdrop-blur">
             <Truck className="h-4 w-4 shrink-0 text-primary" />
             <span className="font-medium">{hero.highlight}:</span>
-            <span className="truncate text-muted-foreground">{hero.areas.slice(0, 4).join(", ")} & lainnya</span>
+            <span className="text-muted-foreground">{hero.areas.slice(0, 4).join(", ")} & lainnya</span>
           </div>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">

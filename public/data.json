@@ -11,42 +11,98 @@
     "address": "Jl. Mojoendah Blok D7 No. 1, Perumnas 1, Desa Mojopurno, Kecamatan Wungu, Kabupaten Madiun, Jawa Timur 63181",
     "mapsUrl": "https://maps.app.goo.gl/qmkdQrkvwGxpaXXy9",
     "mapsEmbedSrc": "https://www.google.com/maps?q=Mojopurno+Wungu+Madiun&output=embed",
-    "instagram": "https://instagram.com/aqiqahahsan.madiun",
-    "tiktok": "https://tiktok.com/@aqiqahahsan.madiun"
+    "instagram": "https://www.instagram.com/aqiqahahsan_madiun",
+    "tiktok": "https://www.tiktok.com/@aqiqah.ahsan.madiun",
+    "facebook": "https://www.facebook.com/bakti.sumantri.92"
   },
   "nav": [
-    { "label": "Beranda", "href": "#home" },
-    { "label": "Tentang", "href": "#tentang" },
-    { "label": "Paket", "href": "#paket" },
-    { "label": "Galeri", "href": "#galeri" },
-    { "label": "Kontak", "href": "#kontak" }
+    {
+      "label": "Beranda",
+      "href": "#home"
+    },
+    {
+      "label": "Tentang",
+      "href": "#tentang"
+    },
+    {
+      "label": "Paket",
+      "href": "#paket"
+    },
+    {
+      "label": "Galeri",
+      "href": "#galeri"
+    },
+    {
+      "label": "Kontak",
+      "href": "#kontak"
+    }
   ],
   "hero": {
     "eyebrow": "Sejak 2019 • Amanah & Higienis",
     "title": "Aqiqah Ahsan Official",
     "subtitle": "Layanan Aqiqah Keluarga Muslim — siap saji, higienis, dan diantar langsung ke rumah Anda.",
     "highlight": "Ready pengiriman luar kota",
-    "areas": ["Ponorogo", "Nganjuk", "Pacitan", "Wonogiri", "Bojonegoro", "Sragen", "Ngawi", "Magetan"],
-    "ctaPrimary": { "label": "Pesan Sekarang", "href": "/contact" },
-    "ctaSecondary": { "label": "Lihat Paket", "href": "#paket" },
-    "images": ["/images/hero-1.webp", "/images/hero-2.webp"]
+    "areas": [
+      "Ponorogo",
+      "Nganjuk",
+      "Pacitan",
+      "Wonogiri",
+      "Bojonegoro",
+      "Sragen",
+      "Ngawi",
+      "Magetan"
+    ],
+    "ctaPrimary": {
+      "label": "Pesan Sekarang",
+      "href": "/contact"
+    },
+    "ctaSecondary": {
+      "label": "Lihat Paket",
+      "href": "#paket"
+    },
+    "images": [
+      "/images/hero-1.webp",
+      "/images/hero-2.webp"
+    ]
   },
   "about": {
     "title": "Tentang Aqiqah Ahsan",
     "subtitle": "Menemani momen syukur keluarga sejak 2019",
     "description": "Aqiqah Ahsan hadir sebagai mitra terpercaya keluarga muslim untuk menunaikan sunnah aqiqah dengan mudah, higienis, dan penuh berkah. Kami menyiapkan kambing berkualitas, mengolahnya menjadi hidangan lezat siap saji, dan mengantarkannya langsung kepada Anda dan kerabat.",
     "values": [
-      { "title": "Amanah & Syar'i", "description": "Pemilihan kambing sesuai syarat aqiqah, ditangani dengan adab Islami." },
-      { "title": "Higienis & Berkualitas", "description": "Diolah di dapur bersih oleh tim berpengalaman, dijamin segar dan nikmat." },
-      { "title": "Praktis Siap Saji", "description": "Tinggal sajikan atau bagikan — semua sudah dimasak, dikemas, dan diantar." },
-      { "title": "Jangkauan Luas", "description": "Melayani Madiun dan kota-kota sekitarnya dengan pengiriman tepat waktu." }
+      {
+        "title": "Amanah & Syar'i",
+        "description": "Pemilihan kambing sesuai syarat aqiqah, ditangani dengan adab Islami."
+      },
+      {
+        "title": "Higienis & Berkualitas",
+        "description": "Diolah di dapur bersih oleh tim berpengalaman, dijamin segar dan nikmat."
+      },
+      {
+        "title": "Praktis Siap Saji",
+        "description": "Tinggal sajikan atau bagikan — semua sudah dimasak, dikemas, dan diantar."
+      },
+      {
+        "title": "Jangkauan Luas",
+        "description": "Melayani Madiun dan kota-kota sekitarnya dengan pengiriman tepat waktu."
+      }
     ]
   },
   "deliverySection": {
     "title": "Area Pengiriman",
     "subtitle": "Kami siap melayani Anda di kota-kota berikut"
   },
-  "deliveryAreas": ["Madiun", "Ponorogo", "Nganjuk", "Pacitan", "Wonogiri", "Bojonegoro", "Sragen", "Ngawi", "Magetan"],
+  "deliveryAreas": [
+    "Madiun",
+    "Ponorogo",
+    "Nganjuk",
+    "Pacitan",
+    "Wonogiri",
+    "Bojonegoro",
+    "Sragen",
+    "Ngawi",
+    "Magetan"
+  ],
   "packagesSection": {
     "title": "Pilihan Paket Aqiqah",
     "subtitle": "Pilih paket yang sesuai untuk momen istimewa keluarga Anda"
@@ -61,7 +117,12 @@
           "name": "Paket Aqiqah 01",
           "image": "/images/paket-jantan-1.webp",
           "tagline": "Rayakan aqiqah buah hati tanpa ribet!",
-          "features": ["2 ekor kambing jantan", "120 porsi gulai", "360 tusuk sate", "Rica-rica kepala, kaki & kulit"],
+          "features": [
+            "2 ekor kambing jantan",
+            "120 porsi gulai",
+            "360 tusuk sate",
+            "Rica-rica kepala, kaki & kulit"
+          ],
           "note": "Semua masakan higienis, siap saji, dan siap dibagikan.",
           "priceLabel": "Rp 4.450.000"
         },
@@ -70,7 +131,12 @@
           "name": "Paket Aqiqah 02",
           "image": "/images/paket-jantan-2.webp",
           "tagline": "Rayakan aqiqah buah hati tanpa ribet!",
-          "features": ["2 ekor kambing jantan", "160 porsi gulai", "480 tusuk sate", "Rica-rica kepala, kaki & kulit"],
+          "features": [
+            "2 ekor kambing jantan",
+            "160 porsi gulai",
+            "480 tusuk sate",
+            "Rica-rica kepala, kaki & kulit"
+          ],
           "note": "Semua masakan higienis, siap saji, dan siap dibagikan.",
           "priceLabel": "Rp 4.750.000"
         },
@@ -79,7 +145,12 @@
           "name": "Paket Aqiqah 03",
           "image": "/images/paket-jantan-3.webp",
           "tagline": "Rayakan aqiqah buah hati tanpa ribet!",
-          "features": ["2 ekor kambing jantan", "200 porsi gulai", "600 tusuk sate", "Rica-rica kepala, kaki & kulit"],
+          "features": [
+            "2 ekor kambing jantan",
+            "200 porsi gulai",
+            "600 tusuk sate",
+            "Rica-rica kepala, kaki & kulit"
+          ],
           "note": "Semua masakan higienis, siap saji, dan siap dibagikan.",
           "priceLabel": "Rp 5.100.000"
         }
@@ -94,7 +165,12 @@
           "name": "Paket Aqiqah 01",
           "image": "/images/paket-betina-1.webp",
           "tagline": "Rayakan aqiqah buah hati tanpa ribet!",
-          "features": ["1 ekor kambing betina", "120 porsi gulai", "360 tusuk sate", "Rica-rica kepala, kaki & kulit"],
+          "features": [
+            "1 ekor kambing betina",
+            "120 porsi gulai",
+            "360 tusuk sate",
+            "Rica-rica kepala, kaki & kulit"
+          ],
           "note": "Semua masakan higienis, siap saji, dan siap dibagikan.",
           "priceLabel": "Rp 3.449.000"
         },
@@ -103,7 +179,12 @@
           "name": "Paket Aqiqah 02",
           "image": "/images/paket-betina-2.webp",
           "tagline": "Rayakan aqiqah buah hati tanpa ribet!",
-          "features": ["1 ekor kambing betina", "160 porsi gulai", "480 tusuk sate", "Rica-rica kepala, kaki & kulit"],
+          "features": [
+            "1 ekor kambing betina",
+            "160 porsi gulai",
+            "480 tusuk sate",
+            "Rica-rica kepala, kaki & kulit"
+          ],
           "note": "Semua masakan higienis, siap saji, dan siap dibagikan.",
           "priceLabel": "Rp 3.649.000"
         },
@@ -112,7 +193,12 @@
           "name": "Paket Aqiqah 03",
           "image": "/images/paket-betina-3.webp",
           "tagline": "Rayakan aqiqah buah hati tanpa ribet!",
-          "features": ["1 ekor kambing betina", "200 porsi gulai", "600 tusuk sate", "Rica-rica kepala, kaki & kulit"],
+          "features": [
+            "1 ekor kambing betina",
+            "200 porsi gulai",
+            "600 tusuk sate",
+            "Rica-rica kepala, kaki & kulit"
+          ],
           "note": "Semua masakan higienis, siap saji, dan siap dibagikan.",
           "priceLabel": "Rp 3.950.000"
         }
@@ -124,17 +210,47 @@
     "subtitle": "Hidangan aqiqah yang telah kami sajikan untuk keluarga Anda"
   },
   "gallery": [
-    { "image": "/images/hero-1.webp", "caption": "Poster Paket Sate Gule" },
-    { "image": "/images/hero-2.webp", "caption": "Daftar Menu Paket Kotak" },
-    { "image": "/images/paket-jantan-1.webp", "caption": "Paket Aqiqah Laki-Laki 01" },
-    { "image": "/images/paket-jantan-2.webp", "caption": "Paket Aqiqah Laki-Laki 02" },
-    { "image": "/images/paket-betina-1.webp", "caption": "Paket Aqiqah Perempuan 01" },
-    { "image": "/images/paket-betina-3.webp", "caption": "Paket Aqiqah Perempuan 03" }
+    {
+      "image": "/images/hero-1.webp",
+      "caption": "Poster Paket Sate Gule"
+    },
+    {
+      "image": "/images/hero-2.webp",
+      "caption": "Daftar Menu Paket Kotak"
+    },
+    {
+      "image": "/images/paket-jantan-1.webp",
+      "caption": "Paket Aqiqah Laki-Laki 01"
+    },
+    {
+      "image": "/images/paket-jantan-2.webp",
+      "caption": "Paket Aqiqah Laki-Laki 02"
+    },
+    {
+      "image": "/images/paket-betina-1.webp",
+      "caption": "Paket Aqiqah Perempuan 01"
+    },
+    {
+      "image": "/images/paket-betina-3.webp",
+      "caption": "Paket Aqiqah Perempuan 03"
+    }
   ],
   "testimonials": [
-    { "name": "Ibu Hana", "city": "Madiun", "message": "Alhamdulillah pelayanannya cepat dan masakannya enak sekali. Tamu-tamu memuji rasa gulainya." },
-    { "name": "Bapak Rifqi", "city": "Ngawi", "message": "Pengiriman tepat waktu sampai ke Ngawi, kemasan rapi, sate empuk. Insyaallah jadi langganan." },
-    { "name": "Keluarga Ahmad", "city": "Magetan", "message": "Prosesnya mudah, tinggal pilih paket dan semua diurus. Sangat membantu untuk keluarga muda." }
+    {
+      "name": "Ibu Hana",
+      "city": "Madiun",
+      "message": "Alhamdulillah pelayanannya cepat dan masakannya enak sekali. Tamu-tamu memuji rasa gulainya."
+    },
+    {
+      "name": "Bapak Rifqi",
+      "city": "Ngawi",
+      "message": "Pengiriman tepat waktu sampai ke Ngawi, kemasan rapi, sate empuk. Insyaallah jadi langganan."
+    },
+    {
+      "name": "Keluarga Ahmad",
+      "city": "Magetan",
+      "message": "Prosesnya mudah, tinggal pilih paket dan semua diurus. Sangat membantu untuk keluarga muda."
+    }
   ],
   "contactSection": {
     "title": "Siap Mengurus Aqiqah Anda",
@@ -144,12 +260,30 @@
     "title": "Hubungi Aqiqah Ahsan",
     "subtitle": "Isi formulir di bawah ini, pesanan Anda akan diteruskan langsung ke WhatsApp kami.",
     "fields": {
-      "nama": { "label": "Nama Lengkap", "placeholder": "Contoh: Ahmad Fauzi" },
-      "telepon": { "label": "Nomor WhatsApp", "placeholder": "08xx-xxxx-xxxx" },
-      "paket": { "label": "Pilih Paket", "placeholder": "Pilih paket aqiqah" },
-      "tanggal": { "label": "Tanggal Acara", "placeholder": "Pilih tanggal" },
-      "alamat": { "label": "Alamat Pengiriman", "placeholder": "Alamat lengkap pengiriman" },
-      "catatan": { "label": "Catatan (opsional)", "placeholder": "Permintaan khusus, jumlah tamu, dll." }
+      "nama": {
+        "label": "Nama Lengkap",
+        "placeholder": "Contoh: Ahmad Fauzi"
+      },
+      "telepon": {
+        "label": "Nomor WhatsApp",
+        "placeholder": "08xx-xxxx-xxxx"
+      },
+      "paket": {
+        "label": "Pilih Paket",
+        "placeholder": "Pilih paket aqiqah"
+      },
+      "tanggal": {
+        "label": "Tanggal Acara",
+        "placeholder": "Pilih tanggal"
+      },
+      "alamat": {
+        "label": "Alamat Pengiriman",
+        "placeholder": "Alamat lengkap pengiriman"
+      },
+      "catatan": {
+        "label": "Catatan (opsional)",
+        "placeholder": "Permintaan khusus, jumlah tamu, dll."
+      }
     },
     "submitLabel": "Kirim ke WhatsApp",
     "whatsappTemplate": "Assalamualaikum Aqiqah Ahsan, saya ingin pesan paket aqiqah dengan detail berikut:\n\nNama: {nama}\nNo. WhatsApp: {telepon}\nPaket: {paket}\nTanggal Acara: {tanggal}\nAlamat Pengiriman: {alamat}\nCatatan: {catatan}\n\nMohon informasi lebih lanjut. Terima kasih."

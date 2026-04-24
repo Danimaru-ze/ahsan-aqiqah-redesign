@@ -13,7 +13,7 @@ export function About() {
       <div className="container-page">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">Tentang Kami</p>
-          <h2 className="mt-3 font-heading text-3xl font-bold text-foreground sm:text-4xl">{about.title}</h2>
+          <h2 className="mt-3 font-heading text-2xl font-bold text-foreground sm:text-4xl">{about.title}</h2>
           <p className="mt-3 text-muted-foreground">{about.subtitle}</p>
           <p className="mt-5 text-base leading-relaxed text-foreground/80">{about.description}</p>
         </div>
